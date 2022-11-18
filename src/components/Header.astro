@@ -1,0 +1,39 @@
+---
+import { SITE_TITLE } from '../config';
+import { SITE_DESCRIPTION } from '../config';
+import Navbar from './Navbar.astro';
+---
+
+<header>
+	<h1>
+		<a id="left" href="/">{SITE_TITLE}</a>
+	</h1>
+
+	<strong>{SITE_DESCRIPTION}</strong>	
+	<Navbar/>
+
+</header>
+<style>
+header {
+	font-size: 1.2em;
+	margin: 10px 20px 10px 20px;
+}
+
+h1 {
+	display: flex;
+	align-items: center;
+}
+
+header h1 a {
+	color: var(--blue);
+}
+
+h1 a:hover {
+	border: 0;
+}
+
+strong {
+	font-size: small;
+	font-family: 'Mono', 'Courier New', Courier, monospace;
+}
+</style>

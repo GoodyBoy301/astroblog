@@ -1,0 +1,53 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_DESCRIPTION } from '../config';
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title="PRIVACY" description={SITE_DESCRIPTION} />
+	<style>
+		ul {
+			list-style-type: none;
+		}
+		.title {
+			font-size: 2em;
+			color: var(--blue);
+			font-family: 'Covered by your grace';
+		}
+		.title:hover {
+			border: 0;
+		}
+		#left {
+			margin-right: 10px;
+		}
+
+		#right {
+			margin-left: 10px;
+		}
+
+	</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h2 class="title" class="title">RESPOSIBLE ENTITY</h2>
+			<p>Aryan Singh</p>
+			<p>
+				Contact: <a href="mailto:aoneone5@protonmail.com">email</a> and <a href="/pgp.asc">pgp key</a>.
+				I personally havenot implemented any survelliance system what so ever.
+				Find relevant links here: 
+				<a target="_blank" href="https://github.com/0thorderlogic/0thorderlogic.github.io">Source code</a>, and <a href="/sitemap-index.xml">Sitemap</a>.
+				This website is powered by <a target="_blank" href="https://astro.build">Astro</a> and hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
+
+			</p>				
+			<p>Have a nice day.</p>
+			<p>~ a115 <a title="Personal email and Fedora related queries" href="mailto:aoneone5@protonmail.com">aoneone5 [at] protonmail [dot] com</a></p>
+			</main>
+		<Footer />
+	</body>
+</html>

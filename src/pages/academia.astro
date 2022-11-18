@@ -1,0 +1,65 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_DESCRIPTION } from '../config';
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title="ACADEMIA" description={SITE_DESCRIPTION} />
+	<style>
+		ul {
+			list-style-type: none;
+		}
+		.title {
+			font-size: 2em;
+			color: var(--blue);
+			font-family: 'Covered by your grace';
+		}
+		.title:hover {
+			border: 0;
+		}
+		#left {
+			margin-right: 10px;
+		}
+
+		#right {
+			margin-left: 10px;
+		}
+
+	</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h2 class="title" class="title">ACADEMIC ARCHIVE</h2>
+
+				<p><a target="_blank" href="/static/CV/Aryan_Singh-Curriculum_Vitae.pdf">My Curriculum Vitae (CV)</a></p>
+			
+				<h2 class="title">RESEARCH INTEREST</h2>
+				<p>My primary field of study is theoretical Computer Science, and my particular favourites include Digital Logic, Data Structures and Algorithms, and the Linux kernel.</p>
+		
+				<h2 class="title">PUBLICATIONS</h2>
+				<p>Technical Whitepaper</p>
+				<ul>
+					<li><p><span id="left">February 2022</span><span id="right"><a target="_blank" href="/static/pdfs/Publications/2022/Evolution of Technology Display System Technical Whitepaper.pdf">Evolution of Technology: Display System</a></span></p></li>
+				</ul>
+		
+				<h2 class="title">PRESENTATIONS</h2>
+				<ul>
+					<li><p><span id="left">July 2022</span><span id="right"><a target="_blank" href="/static/pdfs/Presentations/2022/Logic Families.pdf">Logic Families</a></span></p></li>
+					<li><p><span id="left">July 2022</span><span id="right"><a target="_blank" href="/static/pdfs/Presentations/2022/Marginal Cost and Break Even analysis.pdf">Marginal Cost and Break Even analysis</a></span></p></li>
+					<li><p><span id="left">July 2022</span><span id="right"><a target="_blank" href="/static/pdfs/Presentations/2022/Instruction Format.pdf">Instruction Format</a></span></p></li>
+					<li><p><span id="left">July 2022</span><span id="right"><a target="_blank" href="/static/pdfs/Presentations/2022/Linear Search.pdf">Linear Search</a></span></p></li>
+					<li><p><span id="left">Feb 2022</span><span id="right"><a target="_blank" href="/static/pdfs/Presentations/2022/FSR.pdf">Force Sensing Resistor</a></span></p></li>
+				</ul>
+		
+			<p>Have a nice day.</p>
+			<p>~ a115 <a title="A email provided to me by my undergraduate Institute i.e Meghnad Saha Institute of Technology" href="mailto:aryansingh_cse2021@msit.edu.in">aryansingh_cse2021 [at] msit [dot] edu [dot] in</a></p>
+			</main>
+		<Footer />
+	</body>
+</html>

@@ -1,0 +1,118 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_DESCRIPTION } from '../config';
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title="WHO THE F" description={SITE_DESCRIPTION} />
+	<style>
+		ul {
+			font-family: 'Source', 'Garmond', serif;
+			list-style-type: "* ";
+		}
+		.title {
+			font-size: 2em;
+			color: var(--blue);
+			font-family: 'Covered by your grace';
+		}
+		.title:hover {
+			border: 0;
+		}
+		aside {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 0 0 3em;
+			margin: 3em 0 3em;
+		}
+		.bio #left {
+			width: 180px;
+			float: left;
+			border-radius: 300px;
+			border-right: solid 10px transparent;
+			cursor: pointer;
+		}
+		.bio  #right {
+			float: right;
+		}
+		summary {
+			cursor: pointer;
+			font-family: 'Source', 'Garmond', serif;
+		}
+		pre {
+			font-family: 'Mono', 'Courier New', Courier, monospace;
+		}
+	</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h2 class="title">WHO THE F*!#?!</h2>
+			
+			<aside class="bio">
+				<img id="left" src="/images/aryansingh.jpg" id="aryan-singh" title="Aryan Singh, 2022" alt="Image of Aryan Singh, taken on Oct 2022">
+				<span class="right">
+					<p>I am Aryan, although some people insist on calling me Sanket (of Indian origin means Signal).</p>
+				</span><br/><br/><br/>
+			</aside>
+				
+				<h2 class="title">NOTE FOR VISITORS</h2>
+				<ul>
+					<li>I have no idea what I'm talking about.</li>
+					<li>These days I am on holiday!</li>
+					<li>Content here is subject to my will.</li>
+					<li>I don't track any visitors to this site.</li>
+				</ul></ul>
+
+				<h2 class="title">IN NO PARTICULAR ORDER</h2>
+				<p><a target="_blank" href="/static/pdfs/Star_Trek_Pitch.pdf">Star Trek Pitch 1964 FIRST DRAFT</a></p>
+				<p>I don't have a very organized schedule but I have a placeholders in place. Please check my <a target="_blank" href="https://calendar.google.com/calendar/u/1/embed?src=aryansingh_cse2021@msit.edu.in&ctz=Asia/Kolkata&csspa=1">calender</a>, or the download and view the <a href="/static/ics/2022-06-29.ics">ics</a> file before scheduling something.</p>
+				<p>An image of <a target="_blank" href="/images/cool-images/road-rash.jpg">Road Rash loading screen</a>!</p>
+				<p>I spend a lot of time on Computer Science Stack Exchange. I am probably <a target="_blank" href="https://cs.stackexchange.com/users/152190/aryan-singh">logged in right now</a>.</p>
+				<p>I perform standup comedy and write comedy sketches sometimes, If I have any upcoming shows I will list them <a href="#">here</a>.</p>
+				<p>Here are some of my beloved comics I found on the Internet <a target="_blank" href="/images/comics/academia-v-business.gif">Academia vs Business</a>, <a target="_blank" href="/images/comics/linux-apple-bsd-meme.jpg">GNU-BSD-Apple meme</a> <code>[NSFW]</code>, <a target="_blank" href="/images/comics/physics-cost-saving-tips.png">Physics cost saving tips</a>, and <a target="_blank" href="/images/comics/real_programmers.gif">Real programmer</a>!</p>
+				<p>
+					One of my hobbies is playing with Linux, I am a contributor to the <a target="_blank" href="https://getfedora.org">Fedora Project</a>.
+					You can also take a look at my setups here, I also post them on <a target="_blank" href="https://www.reddit.com/r/unixporn/">r/unixporn</a>,
+					<a target="_blank" href="/images/workspace-setups/bspwm.png">BSPWM</a>,
+					<a target="_blank" href="/images/workspace-setups/gnome.png">GNOME</a>,
+					<a target="_blank" href="/images/workspace-setups/gnome-again.png">GNOME</a> again, and
+					<a target="_blank" href="/images/workspace-setups/xfce.png">XFCE</a>.
+				</p>
+				<p>You can download few of my favourite wallpapers <a target="_blank" href="/images/wallpapers/tokyo-night-wallpapers.jpg">Tokyo night Skyscrapers</a>, <a target="_blank" href="/images/wallpapers/gruvbox-astro.png">Gruvbox Astronaut</a>, <a target="_blank" href="/images/wallpapers/gruvbox-arch.png">Gruvbox Arch Linux</a>, <a target="_blank" href="/images/wallpapers/cube-wallpaper.jpg">Cube</a>, and <a href="/images/wallpapers/tokyo-night.png">Tokyo Night atomic model</a>.</p>
+				<p>Few rather cool images <a target="_blank" href="/images/cool-images/geometry.jpeg">Multi-Dimensional geometrical shapes</a>, and <a target="_blank" href="/images/cool-images/plato.png">Plato - <i>Theory of forms</i></a>.</p>
+				<p>You might want to download my <a target="_blank" href="/pgp.asc">pgp-key</a>.</p>
+				<p>I listen to a lot of music you can subscribe to my <a target="_blank" href="https://open.spotify.com/user/3144ye2o5legrlrphukmhk5mnbjy">spotify</a> playlists!</p>
+		
+				<h2 class="title">DISCLAIMER</h2>
+				<p>Aryan Singh, 2017<br/>I made this site. All opinions stated here is shared by my friends, my family a large group of people from the Internet. I've never met, the cast of "Enterprise" and PM Modi. I plan on being a scientist! All content is subject to change.</p>
+		<details>
+			<summary id="vim-block"><a>View the original block of text I wrote in vim.</a></summary>
+<pre>
+/**
+* Aryan Singh, 2017
+* I made this site
+* All opinions stated
+* here are shared
+* by my friends, my family
+* a large group of people
+* from the Internet.
+* I've never met, the cast of
+* "Enterprise" and PM Modi.
+* I plan on being a scientist!
+* Content here is subject to change.
+**/
+</pre>
+		</details>
+		
+			<p>Have a nice day.</p>
+			<p>~ a115 <a title="Personal email and Fedora related queries" href="mailto:aoneone5@protonmail.com">aoneone5 [at] protonmail [dot] com</a></p>
+		</main>
+		<Footer />
+	</body>
+</html>

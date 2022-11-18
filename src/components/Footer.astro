@@ -1,0 +1,52 @@
+---
+const today = new Date();
+---
+<footer>
+	<hr/>
+
+	<div id="social-icons">
+		<dt><a rel="me" target="_blank" href="https://mastodon.social/@aryansingh"><img id="icon" src="/images/icons/mastodon.svg" title="Mastodon"></a></dt>
+		<dt><a rel="me" target="_blank" href="https://pixelfed.social/aryansingh"><img id="icon" src="/images/icons/image-fill.svg" title="Pixelfed"></a></dt>
+		<dt><a target="_blank" href="https://www.strava.com/athletes/aryansingh"><img id="icon" src="/images/icons/strava.svg" title="Strava"></a></dt>
+		<dt><a target="_blank" href="https://twitter.com/0thorderlogic"><img id="icon" src="/images/icons/twitter.svg" title="Twitter"></a></dt>
+		<dt><a target="_blank" href="mailto:aoneone5@protonmail.com"><img id="icon" src="/images/icons/envelope.svg" title="Email"></a></dt>
+		<dt><a target="_blank" href="https://raw.githubusercontent.com/0thorderlogic/0thorderlogic.github.io/main/public/pgp.asc"><img id="icon" src="/images/icons/key-fill.svg" title="PGP key"></a></dt>
+		<dt><a target="_blank" href="https://www.youtube.com/@0thorderlogic/featured"><img id="icon" src="/images/icons/youtube.svg" title="YouTube"></a></dt>
+	</div>
+
+	<hr/>
+	
+	<div id="footer">
+		<p class="dull">India</p>
+		<p><a target="_blank" href="https://github.com/0thorderlogic/0thorderlogic.github.io">Source code</a> <span class="dull">|</span> <a href="/sitemap-index.xml">Sitemap</a> <span class="dull">|</span> <a href="/social">Social</a> <span class="dull">|</span> <a target="_blank" href="mailto:aoneone5@protonmail.com">Report Typos</a> <span class="dull">|</span> <a href="/privacy">Privacy</a></p>
+		<p>Powered by <a target="_blank" href="https://astro.build">Astro</a> and hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a></p>
+		<p class="dull">Copyright &copy; 2017 - {today.getFullYear()}  Aryan Singh. All rights reserved.</p>
+	</div>
+</footer>
+<style>
+	#social-icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#social-icons dt {
+		padding: 10px 10px 10px;
+		/* TOP, RIGHT and LEFT, BOTTOM */
+	}
+	#social-icons dt a:hover{
+		text-decoration: none;
+		border: 0;
+	}
+	#icon {
+		width: 20px;
+	}
+	.icons {
+		visibility: collapse;
+	}
+	#footer {
+		font-size: 0.7rem;
+	}
+	#footer a, #footer p, #footer .dull{
+		color: var(--blue);
+	}
+</style>

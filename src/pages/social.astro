@@ -1,0 +1,54 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_DESCRIPTION } from '../config';
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title="SOCIAL" description={SITE_DESCRIPTION} />
+	<style>
+		.title {
+			font-size: 2em;
+			color: var(--blue);
+			font-family: 'Covered by your grace';
+		}
+		.title:hover {
+			border: 0;
+		}
+		blockquote {
+			display: flex;
+			justify-content: center;
+			font-style: italic;
+			font-family: 'Source', 'Garmond', serif;
+		}
+		img{
+			width: 20px;
+		}
+	</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="box" id="quote">
+				<blockquote title="Evelyn Beatrice Hall in 1906">
+					“I disapprove of what you say, but I will defend to the death your right to say it.”
+				</blockquote>
+			</div>
+		
+			<div class="box" id="cover">
+				<p>Fediverse social: <a rel="me" href="https://mastodon.social/@aryansingh">mastodon</a> and <a rel="me" href="https://pixelfed.social/aryansingh">pixelfed</a> (recommended)!</p>
+				<p>If you feel like a entitled piece of crap here lies my <a href="https://twitter.com/0thorderlogic">Twitter</a>, or perhaps you live in your mom's basement then check out my <a href="https://steamcommunity.com/id/0thorderlogic/">Steam</a> or <a href="https://github.com/0thorderlogic">GitHub</a>.</p>
+				<p>Some <a href="https://www.youtube.com/@0thorderlogic/featured">videos</a> here and there!</p>
+				<p>If you are a 14 year old girl who hates her father, May I recommend my <a href="https://instagram.com/aryansingh42069">Instagram</a> to you?</p>
+				<p>If you have never know what a women's touch feels like and spend all your waking hours playing sports with guys who are not much different here's my <a href="https://www.strava.com/athletes/aryansingh">Strava</a>!</p>
+			</div>			
+			<p>Have a nice day.</p>
+			<p>~ a115 <a title="Personal email and Fedora related queries" href="mailto:aoneone5@protonmail.com">aoneone5 [at] protonmail [dot] com</a></p>
+		</main>	
+		<Footer />
+	</body>
+</html>
