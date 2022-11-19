@@ -23,11 +23,10 @@ All commands are run from the root of the project, from a terminal:
 **Priority**
 
 - FIX the nav bar link highlight on click
-- ~~FIX RSS~~
+- FIX RSS
 - ~~Image in Who-the-f page~~
 - ~~Update the PGP link~~
 - ~~Disclaimer field in "WHO THE F*!#?!" is a different font - FIX THAT~~
-- Remove the featured tag on top
 - ~~FIX sitemap link~~
 - ~~Add fediverse links~~
  

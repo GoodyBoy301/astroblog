@@ -46,10 +46,8 @@ const posts = (await Astro.glob('./journal/*.{md,mdx}')).sort(
 		.txt {
 			font-size: smaller;
 		}
-		.read-more {
-			color: var(--accent);
+		.txt a {
 			border: 0;
-			border-bottom: solid 1px var(--accent);
 		}
 	</style>
 	</head>
@@ -62,8 +60,8 @@ const posts = (await Astro.glob('./journal/*.{md,mdx}')).sort(
 					{
 						posts.map((post) => (
 							<li>
-								<img class="banner" src={post.frontmatter.heroImage} alt="hero image for this post"><br/>
-								<time class="dull" datetime={post.frontmatter.pubDate}>
+								<img class="banner" src={post.frontmatter.heroImage} alt="Image for this post"><br/>
+								<time class="dull mono" datetime={post.frontmatter.pubDate}>
 									{new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
 										year: 'numeric',
 										day: 'numeric',
@@ -72,7 +70,7 @@ const posts = (await Astro.glob('./journal/*.{md,mdx}')).sort(
 								</time><br/><br/>
 								<a class="title" href={post.url}>{post.frontmatter.title}</a><br/>
 								<p class="txt">{post.frontmatter.description}</p>
-								<a class="read-more txt" href={post.url}>Read more →</a>
+								<p class="txt"><a href={post.url}>Read more →</a></p>
 							</li>
 						))
 					}
