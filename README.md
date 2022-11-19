@@ -1,3 +1,5 @@
+[![Deploy Astro site to Pages](https://github.com/0thorderlogic/0thorderlogic.github.io/actions/workflows/astro.yml/badge.svg)](https://github.com/0thorderlogic/0thorderlogic.github.io/actions/workflows/astro.yml)
+
 # Singh's Journal
 
 https://0thorderlogic.github.io
