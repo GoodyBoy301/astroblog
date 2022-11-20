@@ -25,7 +25,7 @@ All commands are run from the root of the project, from a terminal:
 **Priority**
 
 - FIX the nav bar link highlight on click
-- FIX RSS
+- ~~FIX RSS~~
 - ~~Image in Who-the-f page~~
 - ~~Update the PGP link~~
 - ~~Disclaimer field in "WHO THE F*!#?!" is a different font - FIX THAT~~
@@ -38,9 +38,9 @@ All commands are run from the root of the project, from a terminal:
 - ~~Add privacy page~~
 - ~~find Monospace font!~~
 - Add search
-	- Atleast add the page
+	- At the very least add the page
 - ~~Post preview~~ 
 	- ~~Image~~
 	- ~~Text~~
 - Add archive page
-- Buy domain
+- ~~Buy domain~~
