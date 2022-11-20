@@ -2,7 +2,7 @@
 
 # Singh's Journal
 
-https://0thorderlogic.github.io
+http://aryan.ink
 
 Source code, README.
 Project documentation: https://docs.astro.build

@@ -4,6 +4,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://0thorderlogic.github.io',
+  site: 'http://aryan.ink',
   integrations: [mdx(), sitemap()]
 });
