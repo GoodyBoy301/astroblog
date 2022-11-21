@@ -34,13 +34,12 @@ All commands are run from the root of the project, from a terminal:
  
 **Long term goals**
 
-- Add tag based sorting system
+- ~~Add tag based sorting system~~
 - ~~Add privacy page~~
 - ~~find Monospace font!~~
 - Add search
-	- At the very least add the page
+	- ~~At the very least add the page~~
 - ~~Post preview~~ 
 	- ~~Image~~
 	- ~~Text~~
-- Add archive page
 - ~~Buy domain~~

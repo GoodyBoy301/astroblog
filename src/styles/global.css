@@ -106,6 +106,27 @@ a:hover {
 	font-family: 'Mono', 'Courier New', Courier, monospace;
 }
 
+
+ul.tags {
+	margin: 0;
+	padding: 0;
+}
+
+ul.tags li {
+	margin: 10px 10px 10px 0px;
+	padding: 5px;
+	border: 1px solid var(--blue);
+	display: inline-block;
+	cursor: pointer;
+	transition: 0.1s background, 0.1s color;
+}
+
+ul.tags li.selected {
+	border: 1px solid var(--blue);
+	background: var(--blue);
+	color: var(--white);
+}
+
 ::-webkit-scrollbar {
 	width: 10px;
 }

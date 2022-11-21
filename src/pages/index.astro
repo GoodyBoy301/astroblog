@@ -8,8 +8,7 @@ const posts = (await Astro.glob('./journal/*.{md,mdx}')).sort(
 	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
 );
 
-const tags = ["tag1", "tag2", "tag3"]
-
+const tags = ["POEM", "RANT", "CDC", "DEBATE", "COMEDY"];
 ---
 
 <!DOCTYPE html>
@@ -28,27 +27,6 @@ const tags = ["tag1", "tag2", "tag3"]
 		li {
 			margin: 30px 0 10px 0;
 		}
-
-		ul.tags {
-			margin: 0;
-			padding: 0;
-		}
-
-		ul.tags li {
-			margin: 0.1rem 0.2rem;
-			padding: 0.1rem 0.3rem;
-			border-radius: 0.5rem;
-			border: 0.1rem solid black;
-			display: inline-block;
-			cursor: pointer;
-			transition: 0.1s background, 0.1s color;
-		}
-
-		ul.tags li.selected {
-			background: black;
-			color: white;
-		}
-
 		.title {
 			font-size: 2em;
 			color: var(--blue);
@@ -57,7 +35,7 @@ const tags = ["tag1", "tag2", "tag3"]
 		.title:hover {
 			border: 0;
 		}
-		.dull {
+		.small {
 			font-size: xx-small;
 		}
 		.banner {
@@ -79,15 +57,16 @@ const tags = ["tag1", "tag2", "tag3"]
 		<main>
 			<section>
 				<ul>
-					<p class="mono dull">FEATURED</p>
-					<ul class="tags" id="tagSelect">
+					<p class="mono small">FEATURED TAGS</p>
+					<ul class="tags mono small" id="tagSelect">
 						{tags.map(tag => <li>{tag}</li>)}
 					</ul>
 					{
 						posts.map((post) => (
 							<li data-tags={post.frontmatter.tags}>
-								<img class="banner" src={post.frontmatter.heroImage} alt="Image for this post"><br/>
-								<time class="dull mono" datetime={post.frontmatter.pubDate}>
+								<img class="banner" src={post.frontmatter.heroImage} alt="Image for this post" loading="lazy"><br/>
+								<ul class="tags mono small">{post.frontmatter.tags.split(",").map((tag: unknown) => <li>{tag}</li>)}</ul>
+								<time class="small mono" datetime={post.frontmatter.pubDate}>
 									{new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
 										year: 'numeric',
 										day: 'numeric',
@@ -95,9 +74,6 @@ const tags = ["tag1", "tag2", "tag3"]
 									})}
 								</time><br/><br/>
 								<a class="title" href={post.url}>{post.frontmatter.title}</a><br/>
-								<ul class="tags">
-									{post.frontmatter.tags.split(",").map(tag => <li>{tag}</li>)}
-								</ul>
 								<p class="txt">{post.frontmatter.description}</p>
 								<p class="txt"><a href={post.url}>Read more →</a></p>
 							</li>
@@ -106,42 +82,36 @@ const tags = ["tag1", "tag2", "tag3"]
 				</ul>
 			</section>
 		</main>
-
-		<script>
-			import { atom } from 'nanostores'
-
-			const filteredTopics = atom<string[]>([])
-
-			// Make the tags clickable
-			document.querySelectorAll<HTMLLIElement>("ul.tags li").forEach((tag) => {
-
-				// Add/remove on click
-				tag.addEventListener("click", () => {
-					if (filteredTopics.get().includes(tag.innerText)) {
-						filteredTopics.set(filteredTopics.get().filter(x => x!=tag.innerText))
-					} else {
-						filteredTopics.set([...filteredTopics.get(), tag.innerText])
-					}
-				})
-
-				// Change their color if selected/deselected
-				filteredTopics.subscribe((newFilteredTopics) => {
-					tag.classList.toggle("selected", newFilteredTopics.includes(tag.innerText))
-				})
-			})
-
-			// Hide article if no tags match
-			document.querySelectorAll<HTMLLIElement>("li[data-tags]").forEach(article => {
-				filteredTopics.subscribe((newFilteredTopics) => {
-					if (newFilteredTopics.length == 0) {
-						article.style.display = "block"
-						return
-					} 
-					article.style.display = newFilteredTopics.some(f => article.dataset.tags?.includes(f)) ? "block":"none"
-				})
-			});
-		</script>
-
 		<Footer />
 	</body>
+<script>
+import { atom } from 'nanostores'
+
+const filteredTopics = atom<string[]>([])
+
+document.querySelectorAll<HTMLLIElement>("ul.tags li").forEach((tag) => {
+
+tag.addEventListener("click", () => {
+	if (filteredTopics.get().includes(tag.innerText)) {
+		filteredTopics.set(filteredTopics.get().filter(x => x!=tag.innerText))
+	} else {
+		filteredTopics.set([...filteredTopics.get(), tag.innerText])
+		}
+	})
+
+	filteredTopics.subscribe((newFilteredTopics) => {
+		tag.classList.toggle("selected", newFilteredTopics.includes(tag.innerText))
+	})
+})
+
+document.querySelectorAll<HTMLLIElement>("li[data-tags]").forEach(article => {
+	filteredTopics.subscribe((newFilteredTopics) => {
+		if (newFilteredTopics.length == 0) {
+			article.style.display = "block"
+			return
+		} 
+		article.style.display = newFilteredTopics.some(f => article.dataset.tags?.includes(f)) ? "block":"none"
+	})
+});
+</script>
 </html>
