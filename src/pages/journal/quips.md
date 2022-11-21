@@ -4,7 +4,7 @@ title: "QUIPS"
 description: "Funny one liners that I have written over the years of performing comedy!"
 pubDate: "January 01, 2017"
 heroImage: "/images/posts/quips.png"
-tags: "tag2,tag3"
+tags: "COMEDY"
 ---
 **Jan 2017**
 
