@@ -4,6 +4,7 @@ title: "SUCH ARE THE DAYS HERE ON EARTH"
 description: "This poem by Aryan Singh was originally written as part of a play in 2019. The play told the story of a man who had lost his love! The main character writes a series of letters informing her about his whereabouts and everyday happenings; this was the final letter he wrote on the night of December 2, 1985—the night he becomes a victim of the Bhopal disaster."
 pubDate: "August 17, 2019"
 heroImage: "/images/posts/such-are-the-days-here-on-earth.png"
+tags: "tag1,tag3"
 ---
 
 Misty mornings, stargaze nights!<br/>

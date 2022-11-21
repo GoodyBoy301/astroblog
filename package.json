@@ -14,6 +14,7 @@
     "@astrojs/mdx": "^0.11.6",
     "@astrojs/rss": "^1.0.3",
     "@astrojs/sitemap": "^1.0.0",
-    "astro": "^1.6.9"
+    "astro": "^1.6.9",
+    "nanostores": "^0.7.1"
   }
 }
