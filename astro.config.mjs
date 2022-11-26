@@ -4,6 +4,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'http://aryan.ink',
+  site: 'http://blog.goodie.work',
   integrations: [mdx(), sitemap()]
 });

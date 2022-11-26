@@ -1,11 +1,6 @@
-[![Deploy Astro site to Pages](https://github.com/0thorderlogic/0thorderlogic.github.io/actions/workflows/astro.yml/badge.svg)](https://github.com/0thorderlogic/0thorderlogic.github.io/actions/workflows/astro.yml)
+# Goody's Blog
 
-# Singh's Journal
-
-http://aryan.ink
-
-Source code, README.
-Project documentation: https://docs.astro.build
+http://blog.goodie.work
 
 ## Commands you will find useful if you fork this repo!
 
@@ -25,21 +20,5 @@ All commands are run from the root of the project, from a terminal:
 **Priority**
 
 - FIX the nav bar link highlight on click
-- ~~FIX RSS~~
-- ~~Image in Who-the-f page~~
-- ~~Update the PGP link~~
-- ~~Disclaimer field in "WHO THE F*!#?!" is a different font - FIX THAT~~
-- ~~FIX sitemap link~~
-- ~~Add fediverse links~~
- 
-**Long term goals**
 
-- ~~Add tag based sorting system~~
-- ~~Add privacy page~~
-- ~~find Monospace font!~~
-- Add search
-	- ~~At the very least add the page~~
-- ~~Post preview~~ 
-	- ~~Image~~
-	- ~~Text~~
-- ~~Buy domain~~
+**Long term goals**
