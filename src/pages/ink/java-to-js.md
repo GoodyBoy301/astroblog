@@ -14,7 +14,7 @@ My first encounter with Java was October, 2014, I guess. Had a lot of unforgetab
 ## JANUARY
 
 I found a new love, this year. Javascript.
-[Kadet's](https://kadet.dev/blog/2021-happier-than-ever) and [Yinka's](https://yinkakun.medium.com/my-20-years-in-review-failures-growth-and-new-beginnings-fddf5fcbca0e) 'Year in Reviews' were the motivation I needed to continue a certain course on Web Development.Not to brag, buh JavaScript wasn't so hard to grasp. I guess the feeling was mutual.
+[Kadet's](https://kadet.dev/blog/2021-happier-than-ever) and [Yinka's](https://yinkakun.medium.com/my-20-years-in-review-failures-growth-and-new-beginnings-fddf5fcbca0e) 'Year in Reviews' were the motivation I needed to continue a certain course on Web Development. Not to brag, buh JavaScript wasn't so hard to grasp. I guess the feeling was mutual.
 
 ## FEBRUARY
 
