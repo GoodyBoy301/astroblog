@@ -9,7 +9,7 @@ tags: "RANDOM, 2022, JAVASCRIPT"
 
 ### PROLOGUE
 
-My first encounter with Java was October, 2014, I guess. Had a lot of unforgetable memories. It's been a hard year, 365 days; I just realized I never had a conversation with nor see her, ofcos I still have her IG notification on. I doubt she still wants to be called [Java](https://instagram.com/yooghurliee) tho.
+My first encounter with Java was October 2014, I guess. Had a lot of unforgetable memories. It's been a hard year, 365 days; I just realized I never had a conversation with nor see her, ofcos I still have her IG notification on. I doubt she still wants to be called [Java](https://instagram.com/yooghurliee) tho.
 
 ## JANUARY
 
@@ -23,7 +23,7 @@ I had gained knowledge on the basic possibilities in web dev, it was time to fuc
 ## MARCH
 
 The strike started to feel real to me. Actively joined Twitter; the source of my regular dose of motivation, inspiration and oppression. Started a #301daysofcode Challenge, built one or two things before giving up: [Wordle](https://quizzical-pare-16fc99.netlify.app), [a Calculator](https://romantic-beaver-d6d5e0.netlify.app) and [whatnot](https://loving-wing-58bfe6.netlify.app).
-I also volunteered to mentor a couple of people, buh now I think about, I've been a bad one and a quack atleast. I hope they're doing well tho.
+Also volunteered to mentor a couple of people, buh now I think about, I've been a bad one and a quack atleast. I hope they're doing well tho.
 
 ## APRIL or so
 
