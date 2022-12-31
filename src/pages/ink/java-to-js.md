@@ -23,20 +23,20 @@ I had gained knowledge on the basic possibilities in web dev, it was time to fuc
 ## MARCH
 
 The strike started to feel real to me. Actively joined Twitter; the source of my regular dose of motivation, inspiration and oppression. Started a #301daysofcode Challenge, built one or two things before giving up: [Wordle](https://quizzical-pare-16fc99.netlify.app), [a Calculator](https://romantic-beaver-d6d5e0.netlify.app) and [whatnot](https://loving-wing-58bfe6.netlify.app).
-Also volunteered to mentor a couple of people, buh now I think about, I've been a bad one and a quack atleast. I hope they're doing well tho.
+Also volunteered to mentor a couple of people, buh now I think about it, I've been a bad one and a quack atleast. I hope they're doing well tho.
 
 ## APRIL or so
 
-Every day felt lke the same: watch videos, eat, write code, sleep. I Lost track of time too; didn't know when months started nor ended. Ironaically or not, It was my most productive months:
+Every day felt lke the same: watch videos, eat, write code, sleep. I lost track of time too; didn't know when months started nor ended. Ironically or not, It was my most productive months:
 
-- worked with the folks at Frikax to write beautiful spaghetti codes
-- took a lot of courses, watched a lot of YouTube videos, read a lot books and whatnot: I was always looking for something new to learn, buh I probably wasn't in a tutorial hell, I was just too thirsty for knowledge
-- also actively actively started mentoring someone.... This time more properly. We did create a lot of cool stuffs too
+- worked with the folks at Frikax to write beautiful (spaghetti?) codes
+- took a lot of courses, watched a lot of YouTube videos, read a lot books and whatnot: I was always looking for some other trick to learn 
+- actively started mentoring someone.... This time more properly. We did create a lot of cool stuffs too
 
 ## August.
 
-We failed to roll out an MVP, buh I did learn a lot and got surprisingly close to some of the folks. Not as close as you think tho, we just about languages, Frameworks and whatnot.
-Writing codes turned to more of a hobby for me. Learnt Vue, Typescript. That was probably when I built [Howdy](https://howdy.goodie.work) and [VSL](https://vsl.goodie.work).
+We failed to roll out an MVP, buh I did learn a lot and got surprisingly close to some of the folks. Not as close as you think tho, we just probably talk about languages, Frameworks and whatnot.
+Writing codes turned to more of a hobby for me. Learnt Vue and Typescript. That was probably when I built [Howdy](https://howdy.goodie.work) and [VSL](https://vsl.goodie.work).
 
 ## October.
 
@@ -45,13 +45,13 @@ Decided to build a portfolio, spent half of the month looking for inspiration, a
 ## November.
 
 My month and literally the worst month of the year.
-Almost fell in love, buh God saved me.... or so I thought.
+Almost fell in love, buh God saved me too.... or so I thought.
 I also got [a tiny space in the internet that was just about me](https://www.goodie.work)
 
 ## December.
 
-Built my confidence enough, discovered a lot of people on twitter, violently applied for roles whenever I was bored, watched a lot of serioes
-I wanted to savour every moment of the month since It was my last month in the trenches... or so I think.
+Built my confidence enough, discovered a lot of people on twitter, violently applied for roles whenever I was bored, watched a lot of series.
+The goal was to savour every moment of the month, since It was my last month in the trenches... or so I think.
 
 ### Epilogue
 
@@ -62,8 +62,8 @@ I wanted to savour every moment of the month since It was my last month in the t
 - To the guy that gives me a lot of bad advice especially on girls. _Why????_
 - To the girl who literally shines, that is a little tooo nice, _I always loved talking with you, especially in my dark times._
 - To the guy I've shared a few secrets with, who might just be one of my biggest fans. _You are the realest_
-- To the girl I randomly met online at first, who I admire a lot, and honestly rooting for. _I hope our vibe never fade_
-- To other guy I'm rooting for, that might steal my babe even without trying, _thanks for believing in me_
+- To the girl I randomly met online at first, who I admire a lot, and I'm honestly rooting for. _I hope our vibe never fade_
+- To other guys I'm rooting for, _thanks for believing in me_
 - To the twitter girl that is hot sometimes, who I love her vibe. _I hope I get to know you more_
 - To her, who I recently reconnected with, _words can't express it_.
 - To the rest of you....
