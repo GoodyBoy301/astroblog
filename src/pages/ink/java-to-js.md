@@ -59,8 +59,8 @@ I wanted to savour every moment of the month since It was my last month in the t
 - To the guy, who might just be a god, that I got to collab with once or twice. _You're who you think you are_
 - To the girl, who I like more than most people and I feel she feels the same about me. _We'll find it next year_
 - To the other girl, who thinks I'm always whining her, _not really_
-- To the guy that gives me a lot of bad advice especially on girls, who I might be unable to cut off. _Why????_
-- To the girl who literally shines, that is a little tooo nice, _I always loved talking with you especially in my dark times._
+- To the guy that gives me a lot of bad advice especially on girls. _Why????_
+- To the girl who literally shines, that is a little tooo nice, _I always loved talking with you, especially in my dark times._
 - To the guy I've shared a few secrets with, who might just be one of my biggest fans. _You are the realest_
 - To the girl I randomly met online at first, who I admire a lot, and honestly rooting for. _I hope our vibe never fade_
 - To other guy I'm rooting for, that might steal my babe even without trying, _thanks for believing in me_
