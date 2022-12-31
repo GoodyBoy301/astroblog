@@ -1,19 +1,33 @@
 @font-face {
-  font-family: "Covered by your grace";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("./fonts/CoveredByYourGrace-Regular.ttf");
+	font-family: 'Covered by your grace';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('./fonts/CoveredByYourGrace-Regular.ttf');
 }
 @font-face {
-  font-family: "Mono";
-  font-style: normal;
-  src: url(./fonts/SplineSansMono-VariableFont_wght.ttf);
+	font-family: 'Source';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(./fonts/SourceSerif4-Regular.ttf);
 }
 @font-face {
-  font-family: "Mono";
-  font-style: italic;
-  src: url(./fonts/SplineSansMono-Italic-VariableFont_wght.ttf);
+	font-family: 'Source';
+	font-style: bold;
+	font-weight: 600;
+	font-display: swap;
+	src: url(./fonts/SourceSerif4-SemiBold.ttf);
+}
+@font-face {
+	font-family: 'Mono';
+	font-style: normal;
+	src: url(./fonts/SplineSansMono-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family: 'Mono';
+	font-style: italic;
+	src: url(./fonts/SplineSansMono-Italic-VariableFont_wght.ttf);
 }
 /* --------------------------------------------------------- */
 
@@ -25,7 +39,6 @@
   --gray: rgba(128, 128, 128, 0.26);
   --bg0: #282828;
   --sky-blue: #01d3d6;
-  --yellow: #fabd2f;
   --orange: #fe8019;
   --accent: var(--orange);
 }
@@ -68,7 +81,6 @@ hr {
 p {
   font-family: "Mono", "Courier New", Courier, monospace;
   font-weight: 300;
-  font-style: italic;
 }
 
 a {
