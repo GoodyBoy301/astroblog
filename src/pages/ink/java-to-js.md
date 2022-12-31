@@ -14,7 +14,7 @@ My first encounter with Java was October, 2014, I guess. Had a lot of unforgetab
 ## JANUARY
 
 I found a new love, this year. Javascript.
-[Kadet's](https://kadet.dev/blog/2021-happier-than-ever) and [Yinka's](https://yinkakun.medium.com/my-20-years-in-review-failures-growth-and-new-beginnings-fddf5fcbca0e) 'Year in Reviews' were the motivation I needed to continue a certain course on Web Development. Not to brag, buh JavaScript wasn't so hard to grasp. I guess the feeling was mutual.
+[Kadet's](https://kadet.dev/blog/2021-happier-than-ever) and [Yinka's](https://yinkakun.medium.com/my-20-years-in-review-failures-growth-and-new-beginnings-fddf5fcbca0e) 'Year in Reviews' were the motivation I needed to continue a certain course on Web Development. Not to brag, buh JavaScript wasn't so hard to grasp; I guess the feeling was mutual.
 
 ## FEBRUARY
 
@@ -22,8 +22,8 @@ I had gained knowledge on the basic possibilities in web dev, it was time to fuc
 
 ## MARCH
 
-The strike started to feel real to me. Actively joined Twitter, the source of my regular dose of motivation, inspiration and oppression. Started a #301daysofcode Challenge, built one or two things before giving up: [Wordle](https://quizzical-pare-16fc99.netlify.app), [a Calculator](https://romantic-beaver-d6d5e0.netlify.app) and [whatnot](https://loving-wing-58bfe6.netlify.app).
-I also volunteered to mentor a couple of people in an sca_asaba stuff, buh now I think about, I've been a bad one and a quack atleast. I hope they're doing well tho.
+The strike started to feel real to me. Actively joined Twitter; the source of my regular dose of motivation, inspiration and oppression. Started a #301daysofcode Challenge, built one or two things before giving up: [Wordle](https://quizzical-pare-16fc99.netlify.app), [a Calculator](https://romantic-beaver-d6d5e0.netlify.app) and [whatnot](https://loving-wing-58bfe6.netlify.app).
+I also volunteered to mentor a couple of people, buh now I think about, I've been a bad one and a quack atleast. I hope they're doing well tho.
 
 ## APRIL or so
 
