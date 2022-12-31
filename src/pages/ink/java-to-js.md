@@ -9,13 +9,12 @@ tags: "RANDOM, 2022, JAVASCRIPT"
 
 ### PROLOGUE
 
-My first encounter with Java was October, 2014, I guess. Had a lot of unforgetable memories. For the first time ever I felt I had a lot in common with something.
-It's been a hard year, 365 days; I just realized I never had a conversation with nor see her. I never expected to move on this much, ofcos I still have her IG notification on. I doubt she still wants to be called [Java](https://instagram.com/yooghurliee) tho.
+My first encounter with Java was October, 2014, I guess. Had a lot of unforgetable memories. It's been a hard year, 365 days; I just realized I never had a conversation with nor see her, ofcos I still have her IG notification on. I doubt she still wants to be called [Java](https://instagram.com/yooghurliee) tho.
 
 ## JANUARY
 
 I found a new love, this year. Javascript.
-[Kadet's](https://kadet.dev/blog/2021-happier-than-ever) and [Yinka's](https://yinkakun.medium.com/my-20-years-in-review-failures-growth-and-new-beginnings-fddf5fcbca0e) 'Year in Reviews' were the motivation I needed to continue a certain course on Web Development.Not to bring, buh JavaScript wasn't so hard to grasp. I guess the feeling was mutual.
+[Kadet's](https://kadet.dev/blog/2021-happier-than-ever) and [Yinka's](https://yinkakun.medium.com/my-20-years-in-review-failures-growth-and-new-beginnings-fddf5fcbca0e) 'Year in Reviews' were the motivation I needed to continue a certain course on Web Development.Not to brag, buh JavaScript wasn't so hard to grasp. I guess the feeling was mutual.
 
 ## FEBRUARY
 
